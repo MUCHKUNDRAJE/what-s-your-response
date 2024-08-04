@@ -25,7 +25,9 @@ body,html{
     radial-gradient(circle, transparent 10%, #F7B1C8 20%);
   background-size: 30px 30px; /* Adjust the size of the pattern */
 
+
 }
+
 #card
 {
     width: 500px;
@@ -141,3 +143,18 @@ transform: scale(0);
     border-bottom:solid 1px black;
 
 }
+#main2{
+    display: none;
+}
+ @media (max-width : 600px) {
+    
+    #main{
+        display: none;
+    }
+    #main2{
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: red;
+    }
+ }

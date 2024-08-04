@@ -33,8 +33,10 @@ yes.addEventListener("mouseleave",function(){
 yes.addEventListener("click",function()
 {
     popup.style.display="block"
+    no.style.opacity=0;
 })
 popupi.addEventListener("click",function()
 {
     popup.style.display="none"
+    no.style.opacity=1;
 })
